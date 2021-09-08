@@ -14,7 +14,7 @@ public class Logger {
         
     }
     
-    public static synchronized Logger getInstance(){ //regresa un objeto de tipo log y regresa un instacia unica del objeto.
+    public static synchronized Logger getInstance(){ //regresa un objeto de tipo log y regresa un instancia unica del objeto.
         if(log == null){               
             log = new Logger();
             
